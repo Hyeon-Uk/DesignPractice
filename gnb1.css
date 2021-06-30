@@ -62,13 +62,13 @@ header .util button {
     vertical-align: middle;
 }
 
-main{
-    display:block;
-    height:calc(100vh-71px);
-    background:#ccc;
-    line-height:calc(100vh-71px);
-    text-align: center;
-    font-size:50px;
-    color:#000;
-    font-weight:bold;
+main {
+    display: block;
+    height: calc(100vh - 71px); 
+    background: #ccc; 
+    line-height: calc(100vh - 71px); 
+    text-align: center; 
+    font-size: 50px; 
+    color:#000; 
+    font-weight: bold;
 }
