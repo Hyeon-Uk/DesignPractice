@@ -7,9 +7,6 @@ $(document).ready(function(){
         $(this).children('ul').stop().fadeOut(200);
         $('.bg_gnb').stop().fadeOut(200);
     });
-    $(".gnb").on("mouseover focusin",function(){
-        $('.bg_gnb').stop().fadeIn(300);
-    });
     $('gnb > li').on('focusout',function(){
         $(this).children('ul').stop().fadeOut(200);
     })
