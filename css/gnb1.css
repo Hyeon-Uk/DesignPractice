@@ -58,7 +58,7 @@ header .util a ~ a:before{
 header .util button {
     width:60px;
     height:69px;
-    background:url(images/btn_search.png) no-repeat center #043285;
+    background:url(../images/btn_search.png) no-repeat center #043285;
     vertical-align: middle;
 }
 
