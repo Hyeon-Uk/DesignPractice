@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="fontawesome-free/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/AboutMe.css">
+    <title>About Me</title>
+</head>
+
+<body class="overlay-scrollbar">
+    <!--nav start-->
+    <div class="navbar">
+        <ul class="navbar-nav">
+            <li class="navbar-item">
+                <a href="#" class="navbar-link" onclick="sidebarOpen()">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </li>
+        </ul>
+        <div class="navbar-logo">
+
+        </div>
+        <ul class="navbar-nav">
+            <li class="navbar-item">
+                <a href="#" class="navbar-link" onclick="switchTheme()">
+                    <i class="fas fa-sun light-icon"></i>
+                    <i class="fas fa-moon dark-icon"></i>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--nav end-->
+    <!--sidebar start-->
+    <div class="sidebar">
+        <ul class="sidebar-nav">
+            <li class="sidebar-nav-item">
+                <a href="./index.html" class="sidebar-nav-link">
+                    <div>
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <span>
+                        Home
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a href="./school.html" class="sidebar-nav-link active">
+                    <div>
+                        <i class="fas fa-school"></i>
+                    </div>
+                    <span>
+                        School
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a href="./github.html" class="sidebar-nav-link">
+                    <div>
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <span>
+                        GitHub
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a href="./blog.html" class="sidebar-nav-link">
+                    <div>
+                        <i class="fab fa-blogger"></i>
+                    </div>
+                    <span>
+                        Blog
+                    </span>
+                </a>
+            </li>
+            <li class="sidebar-nav-item">
+                <a href="./game.html" class="sidebar-nav-link">
+                    <div>
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <span>
+                        Game
+                    </span>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!--sidebar end-->
+    <!--content start-->
+    <div class="wrapper">
+        <div class="row">
+            <div class="col-xl-12 col-12 col-sm-12">
+                <div class="profile">
+                    <div class="avt">
+                        <img src="./images/sejong-logo.png" alt="">
+                    </div>
+                    <div class="profile-info">
+                        <h1>Sejong University</h1>
+                        <h3>Computer Science</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xl-12 col-12 col-sm-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>수상경력</h3>
+                        <i class="fas fa-ellipsis-h"></i>
+                    </div>
+                    <div class="card-content">
+                        <table>
+                            <thead>
+                                <tr>
+                                <th>#</th>
+                                <th>년도/학기</th>
+                                <th>수상일자</th>
+                                <th>수상내용</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                <td>1</td>
+                                <td>2017/2학기</td>
+                                <td>2017-10-27</td>
+                                <td>2017년 교내 제4회 SW경시대회(세종코딩챌린지위크) 2등</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>2019년도</td>
+                                    <td>2020-07-17</td>
+                                    <td>정보처리기능사 자격증 취득</td>
+                                    </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--content end-->
+    <script src="js/AboutMe.js"></script>
+</body>
+
+</html>
