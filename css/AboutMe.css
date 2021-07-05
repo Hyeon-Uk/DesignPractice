@@ -28,10 +28,7 @@
     --main-color:var(--dark-color);
     --second-color:var(--dark-second-color);
 }
-.light .dark-icon{
-    display:none;
-}
-.dark .light-icon{
+.light .dark-icon,.dark .light-icon{
     display:none;
 }
 
