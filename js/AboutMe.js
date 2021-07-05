@@ -3,7 +3,11 @@ const themeCookieName="theme";
 const themeDark="dark";
 const themeLight="light";
 
-const setCookie=(cname)=>{
+const sidebarOpen=()=>{
+    body.classList.toggle('sidebar-expand');
+}
+
+const setCookie=(cname,cvalue,exdays)=>{
     let d=new Date();
     d.setTime(d.getTime()+(exdays*24*60*60*1000));
     let expires="expires="+d.toUTCString();
@@ -35,9 +39,11 @@ const switchTheme=()=>{
     if(body.classList.contains(themeLight)){
         body.classList.remove(themeLight);
         body.classList.add(themeDark);
+        setCookie(themeCookieName,themeDark);
     }
     else{
         body.classList.remove(themeDark);
         body.classList.add(themeLight);
+        setCookie(themeCookieName,themeLight);
     }
 }
